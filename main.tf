@@ -9,5 +9,5 @@ terraform {
 
 resource "local_file" "example" {
   filename = "${path.module}/hello.txt"
-  content  = "Hello DevOps"
+  content = "Hello from Automated Terraform CI/CD!"
 }
